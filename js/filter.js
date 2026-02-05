@@ -1,11 +1,11 @@
 const destinations = [
-    { title: "Tassili N'Ajjer", category: "Sahara", location: "Djanet", image: "/Explore-Dz/assets/Tassili.webp" },
-    { title: "Annaba Old Town", category: "East", location: "Annaba", image: "/Explore-Dz/assets/Annaba.jpg" },
-    { title: "Oran Marina", category: "West", location: "Oran", image: "/Explore-Dz/assets/Oran.webp" },
-    { title: "Maqam El Chahid", category: "North", location: "Algiers", image: "/Explore-Dz/assets/Ma9amElchahid.webp" },
-    { title: "Bejaia Mountains", category: "North", location: "Bejaia", image: "/Explore-Dz/assets/Bejaia.webp" },
-    { title: "Sidi M'Cid Bridge", category: "East", location: "Constantine", image: "/Explore-Dz/assets/constantine.jpg"},
-    { title: "Great Mosque", category: "Center", location: "Algiers", image: "/Explore-Dz/assets/Djamia-el-djazair.webp" 
+    { title: "Tassili N'Ajjer", category: "Sahara", location: "Djanet", image: "assets/Tassili.webp" },
+    { title: "Annaba Old Town", category: "East", location: "Annaba", image: "assets/Annaba.jpg" },
+    { title: "Oran Marina", category: "West", location: "Oran", image: "assets/Oran.webp" },
+    { title: "Maqam El Chahid", category: "North", location: "Algiers", image: "assets/Ma9amElchahid.webp" },
+    { title: "Bejaia Mountains", category: "North", location: "Bejaia", image: "assets/Bejaia.webp" },
+    { title: "Sidi M'Cid Bridge", category: "East", location: "Constantine", image: "assets/constantine.webp"},
+    { title: "Great Mosque", category: "Center", location: "Algiers", image: "assets/Djamia-el-djazair.webp" 
     }
 ];
 

@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',() =>{
 
         grid.innerHTML = items.map(item => `
             <div class="card fade-in" data-category="${item.category}">
-                <img src="${item.image}" alt="${item.title} loading="lazy">
+                <img src="${item.image}" alt="${item.title}" loading="lazy">
                     <div class="card-overlay">
                         <span class="tag">${item.category}</span>
                     <h3>${item.title}</h3>

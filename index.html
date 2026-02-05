@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Algeria | Discover the Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    
+    <nav class="navbar" id="main-nav">
+          <div class="container">
+            <a href="#" class="logo">Explore <span class="lg">DZ</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#calculator">Plan Trip</a></li>
+                <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+            </ul>
+          </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <header id="home" class="hero">
+        <div class="hero-contact">
+            <h1 class="fade-in">Discover the 
+                <span id="typewriter">Hidden Gems </span> of Algeria</h1>
+                <p>From the golden dunes of the Sahara
+                    to the turquoise waters of the Mediterranean. </p>
+                    <div class="hero-btns">
+                        <a href="#destinations" class="btn-primary">Explore Now</a>
+                        <a href="#" class="btn-secondary">Watch Video</a>
+                    </div>
+        </div>
+    </header>
+
+    <!-- Destinations -->
+
+    <section id="destinations" class="destinations-container">
+        <div class="container">
+
+        
+        <div class="section-header">
+            <h2 class="section-title" data-aos="fade-right" data-aos-delay="200">
+                Explore <span>Algeria</span>
+            </h2>
+            <p class="section-subtitle" data-aos="fade-left" data-aos-delay="400">Discover the beauty
+                        of our diverse regions</p>
+        </div>
+
+        <div class="filter-wrapper" data-aos="flip-right" data-aos-delay="600">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Sahara">Sahara</button>
+            <button class="filter-btn" data-filter="North">North</button>
+            <button class="filter-btn" data-filter="East">East</button>
+            <button class="filter-btn" data-filter="West">West</button>
+            <button class="filter-btn" data-filter="Center">Center</button>
+        </div>
+
+        <div class="destinations-grid" id="destinations-grid">
+                    <div class="loader">Loading destinations...</div>
+        </div>
+        </div>
+    </section>
+    
+
+<hr>
+    <footer>
+        <p>Powered By <a href="https://github.com/moh-dev10">moh-dev10</a></p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/animation.js" defer></script>
+    <script src="js/filter.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // Speed of animation (ms)
+    offset: 120,   // Distance from viewport before triggering
+    once: true     // Whether animation should happen only once
+  });
+</script>
+</body>
+</html>
